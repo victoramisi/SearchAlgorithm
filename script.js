@@ -15,17 +15,17 @@ function createMovieDescription(description) {
   return movieDescription;
 }
 
-//---------------Chapter 2-------------------
+//---------------Chapter 3-------------------
 //Create movie container
 function createMovieContainer() {
   let movieSection = document.createElement("div");
   return movieSection;
 }
-//---------------Chapter 3-------------------
+//---------------Chapter 4-------------------
 //get Movie container and add movie elements
 movieContainer = document.getElementById("movieSection");
 
-//---------------Chapter 4-------------------
+//---------------Chapter 5-------------------
 //Loop through the movies data
 function renderMovies(movies) {
   for (let movieItem of movies) {
@@ -54,7 +54,7 @@ function renderMovies(movies) {
   }
 }
 renderMovies(movies);
-//---------------Chapter 5-------------------
+//---------------Chapter 6-------------------
 //handle the form
 function empty(element) {
   while (element.firstElementChild) {
