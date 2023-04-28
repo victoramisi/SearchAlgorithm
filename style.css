@@ -1,0 +1,61 @@
+.body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+#formSection {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+#mainHeader {
+  text-align: center;
+  font-size: 60px;
+}
+
+form {
+  width: 800px;
+}
+form input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 60px;
+  font-size: 30px;
+}
+
+#movieSection {
+  margin-top: 60px;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+
+  flex-direction: column;
+}
+.centerTextDescription {
+  text-align: start;
+  display: none;
+}
+
+.centerTextDescriptionTrue {
+  text-align: start;
+  display: flex;
+}
+.centerTextNameTitleAndYear {
+  font-size: 20px;
+  text-align: start;
+  color: black;
+  cursor: pointer;
+}
+
+.centerTextNameTitleAndYear:hover {
+  color: blue;
+}
+.eachMovieSection {
+  border: 1px solid #ccc;
+  margin: 30px;
+  width: 800px;
+}
